@@ -13,8 +13,6 @@ interface Props {
 const ActiveLink = ({ path, text }: Props) => {
 
     const pathName = usePathname();
-    console.log({ pathName, path })
-
     return (
         <Link
             href={path}
